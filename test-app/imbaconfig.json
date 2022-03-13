@@ -1,0 +1,13 @@
+{
+    "defaults": {
+        "preload": {
+            "format": "iife",
+            "platform": "browser",
+            "external": ["builtins","electron"]
+        },
+        "web": {
+            "splitting": true,
+            "external": ["electron"]
+        }
+    }
+}
